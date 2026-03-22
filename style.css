@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width:200px;
+   
+    border-radius: 20%;
+    margin:2.5rem;
+}
+.btn-container{
+    /* height: 400px;
+    width:400px; */
+   
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: space-evenly; */
+}
+.red{
+    background-color:#EF88AD;
+     border:6px solid #A53860;
+     color:#A53860;
+}
+.green{
+    background-color: #5E936C;
+    border:6px solid #3E5F44;
+    color:#3E5F44;
+}
+.yellow{
+    background-color: #FFE99A;
+    border:6px solid #FFD586;
+    color:#FFD586;
+}
+.purple{
+    background-color: #9B7EBD;
+    border:6px solid #7F55B1 ;
+    color:#7F55B1
+}
+.flash{
+    background-color:white;
+}
